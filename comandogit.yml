@@ -1,0 +1,27 @@
+git tag: - Visualiza as tags dos arquivos. 
+
+git checkout v0.1: -altera seu repositório local fazendo com que seus arquivos fiquem no mesmo estado em que estavam quando a tag v0.1 foram criados!
+
+git diff v0.1 v0.2: vemos as alterações entre uma versão e a outra. 
+
+git ls-files : Quais arquivos que pertencem ao nosso repositório
+
+git status: Saber atual status do repositório.
+
+git add index.html : Adiciona o arquivo index ao repositório git. Após alteração do arquivo tem que add novamente o arquivo. 
+git add . : Adiciona para comite todos os arquivos do repositório.
+git nome do diretorio: Adiciona todos os arquivos do diretório
+git arquivo1 arquivo 2 : Adiciona os arquivos arquivo1 e arquivo2 
+
+git config user.name "João Carlos Fonseca" : Informa o git o nome
+git config user.email "jcfonsecagit@gmail.com" : Informa ao  git o email
+
+git config --global user.name "João Carlos Fonseca": Definindo nome global
+git config --global user.email "jcfonsecagit@gmail.com": Definindo email global
+
+git commit -m "Início do projeto": Comitar o projeto. A flag "-m", indica que o conteúdo a seguir é a mensagem que será utilizada para descrever o que está sendo feito no commit.
+
+Estados de um Repositorio:
+  working directory: representa o estado atual dos arquivos no repositório. Podemos utilizar o comando git add para adicioná-los ao index, ou staging area, que representa uma visão preliminar das modificações que queremos definir para nosso projeto, comparando essas ao HEAD, o último passo completo do nosso projeto, que serve de referência para comparação do trabalho com o working directory.
+
+git remote add [alias_do_repositorio] [uri_do_repositorio]: Indica o caminho do repositório remoto.
